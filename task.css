@@ -22,15 +22,10 @@
 	   flex-wrap:wrap;
 	   margin-right:-15px;
 	   margin-left:-15px;
-   }.row1{
-	   display:flex;
-	   flex-wrap:wrap;
-	   margin-right:-15px;
-	   margin-left:-15px;
    }
    .row> *{
 	   width: 100%;
-	   padding: 15px;
+	   padding:0px 15px;
    }
    .col-lg-1{
 	   width:8.33%;
@@ -273,6 +268,7 @@
    }
    .choose-items > p{
 	   color: #999;
+	   
    }
    .why-choose > h1{
     font-size: 32px;
@@ -299,8 +295,11 @@
    .why-choose > p{
 	   margin-bottom: 30px;
 	   text-align: left;
+	   line-height:20px;
    }
-   
+   .why-choose > i:hover{
+	  background:white;
+   }
   /*=====about style====*/
   .abt-section{
 	  padding:80px 0;
@@ -487,6 +486,7 @@
 	}
 	.service-items p{
 		font-size: 16px;
+		line-height:20px;
 	}
   /*===service end===*/
   
@@ -496,63 +496,37 @@
 	  margin-bottom: 60px;
 	  margin-top: 60px;
 	   }
-  .box{
-	  background-color:white;
-	  padding:20px 20px;
-	  padding-top:170px;
-	  background-image: url('img/values-1.jpg');
-	  border-radius: 4px;
-  }
-  .box1{
-	  background-color:white;
-	  padding:20px 20px;
-	  padding-top:170px;
+	 .pic1{
+		 background-image: url('img/values-1.jpg');
+	 }
+  .pic2{
 	  background-image: url('img/values-2.jpg');
-	  border-radius: 4px;
   }
-  .box2{
-	  background-color:white;
-	  padding:20px 20px;
-	  padding-top:170px;
+  .pic3{
 	  background-image: url('img/values-3.jpg');
-	  border-radius: 4px;
   }
-  .box3{
-	  background-color:white;
-	  padding:20px 20px;
-	  padding-top:170px;
+  .pic4{
 	  background-image: url('img/values-4.jpg');
-	  border-radius: 4px;
   }
-  
+  .box{
+	  background-color: white;
+    padding: 20px 20px;
+    padding-top: 170px;
+    border-radius: 4px;
+    margin-bottom: 33px;
+  }
   .small{
 	  background-color: #ffffffe3;
 	  padding: 20px 30px;
 	  border-radius: 10px;
   }
-  .small1{
-	  background-color: #ffffffe3;
-	  padding: 20px 30px;
-	  border-radius: 10px;
-  }
-  .small2{
-	  background-color: #ffffffe3;
-	  padding: 20px 30px;
-	  border-radius: 10px;
-  }
-  .small3{
-	  background-color: #ffffffe3;
-	  padding: 20px 30px;
-	  border-radius: 10px;
-  }
-  
-  .small >h4,.small1 > h4,.small2 > h4,.small3 > h4{
+  .small >h4{
 	  text-align: center;
 	  font-weight: 100;
 	  color:black;
 	  font-size:20px;
   }
-  .small >a,.small1 >a,.small2>a,.small3>a{
+  .small >a{
 	  font-size:12px;
 	  font-weight: 600;
 	  color:black;
@@ -561,30 +535,9 @@
 	  background:var(--primary-color);
 	  color:white;
 	}
-	  .big .box1:hover .small1{
-	  background:var(--primary-color);
-	  color:white;
-	}
-	  .big .box2:hover .small2 {
-	  background:var(--primary-color);
-	  color:white;
-	}
-	  .big .box3:hover .small3 {
-	  background:var(--primary-color);
-	  color:white;
-    }
-	 .big .box:hover a{
-	  color:white;
-	}
-	.big .box1:hover a{
-	  color:white;
-	}
-	.big .box2:hover a{
-	  color:white;
-	}
-	.big .box3:hover a{
-	  color:white;
-	}
+	 .big .box:hover .small >h4>a,.big .box:hover .small >a{
+		color: white; 
+	 }
 	
   /*====background end===*/
   
@@ -720,6 +673,7 @@
 		padding-top:23px;
 		 font-size:17px;
 	  text-align:center;
+	  line-height:30px;
 	}
 	.maker{
 		position:relative;
@@ -832,6 +786,7 @@
    }
    .money .business h3{
 	    background-color:#4dc4d3;
+		color:white;
    }
    .money p del{
 	   color:#5c4d4d47;
@@ -861,6 +816,7 @@
 	   overflow:hidden;
 	    margin:0 auto;
        transform:translate(96px, -50px)rotate(45deg);
+	   color:white;
    }
    .buy-order{
 	   height:0px;
@@ -896,7 +852,8 @@
    .first a{
 	    text-decoration:none;
 		color:#000;
-		line-height:2px;
+		line-height:10px;
+		padding:20px;
 		
    }
    .first .fa{
@@ -915,6 +872,7 @@
    /*===contact start===*/
    .contact{
 	    background-color:white;
+		padding:20px;
    }
    .content7{
 	    background-color:white;
@@ -929,6 +887,13 @@
 		padding:10px;
 		font-size:50px;
 		color:#00bcd4;
+   }
+   .content7 > h1{
+	   font-size:20px;
+   }
+    .content7 > p{
+		padding:20px;
+	   line-height:30px;
    }
    
    
@@ -955,6 +920,9 @@
    }
    .base > h1{
 	   font-size:30px;
+   }
+   .base > p:hover{
+	   color:var(--primary-color);
    }
    
    /*===footer end===*/
