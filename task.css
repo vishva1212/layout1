@@ -13,7 +13,7 @@
 	 ---white: #fff;
  }
 .container{
-	  width:1210px;
+	  width:1170px;
 	  margin:0 auto;
 	  padding:0 15px;
    }
@@ -297,8 +297,9 @@
 	   text-align: left;
 	   line-height:20px;
    }
-   .why-choose > i:hover{
+   .why-choose > a:hover{
 	  background:white;
+	  color:#00bcd4;
    }
   /*=====about style====*/
   .abt-section{
@@ -320,7 +321,7 @@
 	  color: black;
   }
   .abt-content > p{
-	  
+	  line-height:25px;
   }
   .abt-list{
 	  display: flex;
@@ -351,6 +352,9 @@
 	  margin-bottom: 25px;
 	  color:black;
 	  font-size: 26px;
+  }
+  .abt-text > p{
+	  line-height:20px;
   }
   .abt-img{
 	  display: flex;
@@ -530,6 +534,9 @@
 	  font-size:12px;
 	  font-weight: 600;
 	  color:black;
+  }
+  .small >p{
+	  line-height:20px;
   }
 	  .big .box:hover .small{
 	  background:var(--primary-color);
@@ -823,87 +830,135 @@
    }
    /*===price end===*/
    
-   /*===para start===*/
+  /*===para start===*/
   .para{ 
-      margin:60px 0;
-	  font-family: "Open Sans", sans-serif;
-	   background-color:var(--bg-color);
+   padding:100px;
+   background-color:#bdd7d987;
   }
-  .content6{
+  .content6 h1{
 	  text-align:center;
+	  font-size:30px;
+      line-height:80px;	  
   }
-  .content6 h2{
-	  margin-bottom:30px;
-	    color:#5c4d4d;
-	   font-size:35px;
-	   
+  .content6 p{
+	  text-align:center;
+	  font-size:15px;	  
+	  line-height:30px;
   }
-   .content6 p{
-	    color:#5c4d4d;
-	   padding-top:20px;
-	   font-size:17px;
-	    line-height:27px;
-   }
   .first{
-	  margin-top:10px;
-	  padding-left:100px;
-	  background:white;
+   padding:20px;
+   margin-top:20px;
+   background-color:#fff;
   }
-   .first a{
-	    text-decoration:none;
-		color:#000;
-		line-height:10px;
-		padding:20px;
-		
-   }
-   .first .fa{
-	   padding:8px;
-	   font-size:23px;
-	   color:var(--primary-color);
-	   opacity:0.5;
-   }
-    .first a:hover{
-		color:var(--primary-color);
-		
-	}
-  
+  .first i{
+	  color:#00bcd4;
+	  font-size:25px;
+  }
+  .first a{
+	  text-decoration:none;
+	  color:black;
+	  display:flex;
+  }
+  .first:hover{
+	  color:#00bcd4;
+  }
+  .first .tt{
+	  float:right;
+  }
+  .first .tt i{
+	  color:black;
+  }
    /*===para end===*/
-   
+ 
    /*===contact start===*/
    .contact{
-	    background-color:white;
-		padding:20px;
+		 font-family: "Open Sans", sans-serif;
+		 margin:30px 0;
    }
-   .content7{
-	    background-color:white;
-        text-align:center;
-        margin-top:20px;
+   .table{
+	   padding:15px 150px;
    }
-   .address{
+   .sec-title{
+	   text-align:center;
+   }
+   .sec-title > h1{
+	   font-size:30px;
+	   margin-bottom:20px;
+   }
+   .sec-title > p{
+	   line-height:25px;
+	   margin-bottom:20px;
+	   font-size:19px;
+   }
   
-	    text-align:center;
-        margin-top:10px;
-		text-align:center;
-		padding:10px;
-		font-size:50px;
-		color:#00bcd4;
+   .address{
+	   position:relative;
+	   padding:35px 30px;
+      padding-left:90px;
+	  box-shadow:0 0 20px #c6c6c6;
+	  background:#fff;
+	  t
    }
-   .content7 > h1{
-	   font-size:20px;
-   }
-    .content7 > p{
-		padding:20px;
-	   line-height:30px;
-   }
-   
-   
-   
-   .no{
-	    background-color:#ff5821;
-   height:500px;
+	  .address >i{
+		  position:absolute;
+		  top:28px;
+		  left:25px;
+		  font-size:32px;
+		  color:var(--primary-color);
+		  border:dotted 2px var(--primary-color);
+		  width:50px;
+		  height:50px;
+		  border-radius:50%;
+		  text-align:center;
+		  line-height:50px;
+	  } 
+	  .address h1{
+		font-size:20px;
+		color:#5c4d4d;
+		font-weight:600;
+	}
+	  .address p{
+		padding-top:10px;
+		line-height:24px;
+		font-size:15px;
+	}
+	    
+   .form-content{
       margin-top:20px;
+	  padding:20px;
+	   background-color:#fff;
+	  box-shadow:0 0 30px #ccc;
+	  width:100%;
+	  
+   }
+   
+   .form input{
+	   width:100%;
+	  margin-bottom:20px;
+	  padding:10px;
+	  font-size:17px;
+   }
+    .form textarea{
+		 width:100%;
+		  padding:10px 10px;
+	     font-size:17px;
+	     margin-bottom:20px;
+	}
+   .form-btn{
+	   text-align:center;
+	   margin:10px 0;
+   }
+      .form-btn a{
+	  color:#fff;
+	  text-decoration:none;
+	  background-color:#4dc4d3;
+	  padding:15px 25px;
+	  }
+	  .form-btn a:hover{
+		  background-color: var(--primary-color);
    }
    /*===contact end===*/
+   
    
    /*===footer start===*/
    .footer{
