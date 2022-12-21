@@ -114,7 +114,7 @@
    }
    
    /*====header style===*/
-   .header-top{
+   .header-start{
 	   background-color:#fff;
 	   
    }
@@ -454,6 +454,7 @@
 		min-height: 210px;
 		background-color:#fff;
 		box-shadow: 0 0 10px #ccc;
+		margin-bottom:20px;
 	}
 	.service-icon{
 		position: absolute;
@@ -466,6 +467,7 @@
 		color: #fff;
 		transform: translatex(-50%);
 		z-index: 1;
+		
 	}
 	.service-icon:after{
 		content:"";
@@ -553,6 +555,9 @@
 	}
 	 .big .box:hover .small >h4>a,.big .box:hover .small >a{
 		color: white; 
+	 }
+	 .small i{
+		 padding:5px;
 	 }
 	
   /*====background end===*/
@@ -725,6 +730,9 @@
 	   position:absolute;
 	  text-align:center;
 	  
+	}
+	.name-icon i{
+		padding:0px 10px;
 	}
 
 	.maker:hover .name-icon{
@@ -1105,12 +1113,12 @@
    }
    .finish-02{
 	   background-color:white;
-	    font-size:30px;
+	    font-size:25px;
 	    height:60px;
 		padding-left:120px;
    }
    
-   .finish-02 >i{
+   .finish-02 >a{
 	   background:#00bcd4;
 	   padding:5px;
 	   color:white;
