@@ -637,6 +637,7 @@
    }
    .adding:hover .mirror{
 	   opacity:1;
+	   transform:translateY(0);
    }
    .adding:hover .foliobox-icon{
 	   opacity:1;
@@ -655,6 +656,8 @@
 	border:soild 2px red;
 	padding-left:20px;
 	margin:22px;
+	transition: all 0.5s ease;
+    transform: translateY(20px);
 
 }
    .foliobox1 h2{
@@ -893,7 +896,8 @@
   .first .tt{
 	  float:right;
   }
-  .first .tt i:hover{
+  
+  .first:hover .tt i{
 	  color:#00bcd4;
   }
   .first .tt i{
