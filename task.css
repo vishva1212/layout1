@@ -144,7 +144,7 @@
 	   height:100%;
    }
     .nav-section{
-	   padding:5px  0;
+	   padding:15px  0;
 	   
    }
   
@@ -268,7 +268,7 @@
    }
    .choose-items > p{
 	   color: #999;
-	   
+	   line-height:20px;
    }
    .why-choose > h1{
     font-size: 32px;
@@ -301,7 +301,7 @@
 	  background:white;
 	  color:#00bcd4;
    }
-  /*=====about style====*/
+  /*=====about start====*/
   .abt-section{
 	  padding:80px 0;
 	  background-color: #f8feff;
@@ -317,8 +317,8 @@
   .abt-content > h2{
 	  font-size: 29px;
 	  margin-bottom: 25px;
-	  font-weight: 900;
-	  color: black;
+	  font-weight: 600;
+	  color:#554945;
   }
   .abt-content > p{
 	  line-height:25px;
@@ -349,9 +349,10 @@
 	  padding-left: 20px;
   }
   .abt-text > h2{
-	  margin-bottom: 25px;
-	  color:black;
-	  font-size: 26px;
+	  margin-bottom:15px;
+	  color:#554945;
+	  font-size: 20px;
+	  font-weight:bold;
   }
   .abt-text > p{
 	  line-height:20px;
@@ -366,7 +367,7 @@
 	  align-items: center;
   }
   .abt-img > i{
-	background-color:#0e76e1eb;
+	background-color:#21c9c9eb;
 	border-radius: 50%;
 	font-size: 30px;
 	color: #fff;
@@ -374,6 +375,13 @@
 	text-align: center;
 	width: 70px;
 	line-height: 70px;
+  }
+  .abt-text > h2:hover{
+	  color:#00bcd4;  
+  }
+  .abt-list:hover .abt-icons{
+	  background-color:#00bcd4;
+	  color:#fff;
   }
   /*===customer===*/
   .customer{
@@ -476,7 +484,8 @@
 	.service-items h3 a{
 		display: inline-block;
 		text-decoration: none;
-		font-size: 20px;
+		font-size: 19px;
+		font-weight:bold;
 		margin: 20px;
 		color:#000;
 	}
@@ -489,7 +498,7 @@
 		color: var(--primary-color);
 	}
 	.service-items p{
-		font-size: 16px;
+		font-size: 15px;
 		line-height:20px;
 	}
   /*===service end===*/
@@ -526,7 +535,7 @@
   }
   .small >h4{
 	  text-align: center;
-	  font-weight: 100;
+	  font-weight:bold;
 	  color:black;
 	  font-size:20px;
   }
@@ -563,7 +572,19 @@
 	 border-radius:50%;
      box-shadow:2px 2px 2px 15px #8080804d; 
   }
-  
+  .content2 > h1{
+	  margin-top:10px;
+	  font-size:25px;
+	  font-weight:bold;
+	  margin-bottom:10px;
+  }
+   .content2 > h6{
+	  font-size:15px;
+	  margin-bottom:20px;
+  }
+  .content2 > p{
+	  line-height:30px;
+  }
   
    
    /*===swiping end===*/
@@ -579,7 +600,8 @@
    }
    .content3 h1{
 	   color:#5c4d4d;
-	   font-size:35px;
+	   font-size:30px;
+	   font-weight:bold;
    }
    .content3 p{
 	   color:#5c4d4d;
@@ -633,15 +655,18 @@
 	border:soild 2px red;
 	padding-left:20px;
 	margin:22px;
+
 }
    .foliobox1 h2{
 	   font-size:20px;
+	    font-family:'Raleway ', sans-serif;
 	   padding-top:15px;
 	   line-height:30px;
-	    font-family:"Raleway ", sans-serif;
+	   
    }
    .foliobox1 p{
 	   font-size:15px;
+		font-family:'Raleway',sans-serif;
 	   padding-bottom:15px;
    }
 .foliobox-icon{
@@ -691,7 +716,7 @@
 		left:0;
 		right:0;
 		width:100%;
-	    padding:10px 20px;
+	    padding:10px 30px;
 	    background-color:#ffffff8c;
 	   bottom:100px;
 	   position:absolute;
@@ -749,12 +774,13 @@
    .content5 h1{
 	   color:#5c4d4d;
 	   font-size:35px;
+	    font-weight:bold;
    }
    .content5 p{
 	   color:#5c4d4d;
 	   padding-top:20px;
 	   
-	   font-size:20px;
+	   font-size:18px;
 	    line-height:30px;
    }
    .money{
@@ -832,13 +858,15 @@
    
   /*===para start===*/
   .para{ 
-   padding:100px;
+   padding:50px;
    background-color:#bdd7d987;
   }
   .content6 h1{
 	  text-align:center;
 	  font-size:30px;
-      line-height:80px;	  
+      line-height:80px;	
+      color:#635551;
+       font-weight:bold; 
   }
   .content6 p{
 	  text-align:center;
@@ -865,6 +893,9 @@
   .first .tt{
 	  float:right;
   }
+  .first .tt i:hover{
+	  color:#00bcd4;
+  }
   .first .tt i{
 	  color:black;
   }
@@ -883,7 +914,10 @@
    }
    .sec-title > h1{
 	   font-size:30px;
+	   margin-top:60px;
 	   margin-bottom:20px;
+	   color:#635551;
+	   font-weight:bold;
    }
    .sec-title > p{
 	   line-height:25px;
@@ -897,7 +931,7 @@
       padding-left:90px;
 	  box-shadow:0 0 20px #c6c6c6;
 	  background:#fff;
-	  t
+	  
    }
 	  .address >i{
 		  position:absolute;
@@ -920,7 +954,7 @@
 	  .address p{
 		padding-top:10px;
 		line-height:24px;
-		font-size:15px;
+		font-size:14px;
 	}
 	    
    .form-content{
@@ -957,30 +991,108 @@
 	  .form-btn a:hover{
 		  background-color: var(--primary-color);
    }
+   .form1:focus{
+	   outline:0px;
+	   border:solid 1px var(--primary-color);
+   }
    /*===contact end===*/
    
    
    /*===footer start===*/
+   
    .footer{
-	    background-color:;
-        padding:40px 0 ;
+        background-color:#bdd7d987;
+		padding:80px 0 ;
    }
-   .base{
-	    background-color:white;
-       height:300px;
-       margin-top:20px;
-	   padding:10px;
-	   line-height:40px;
-	    font-family:'Raleway', sans-serif;
+   .base2 a{
+	   color:black;
+	   text-decoration:none;
    }
-   .base > h1{
+    .base1 a{
+	   color:#5c4d4d;
+	   text-decoration:none;
+   }
+   .base h1{
 	   font-size:30px;
    }
-   .base > p:hover{
-	   color:var(--primary-color);
+   .base p{
+      margin-top:10px;
+	  font-size:15px;
+	  line-height:20px;
+	  color:#5c4d4d;
    }
-   
-   /*===footer end===*/
+   .base h2{
+	   font-size: 16px;
+       font-weight: bold;
+   }
+   .base h5{
+	   margin-top:10px;
+	   font-size:15px;
+	   color:#5c4d4d;
+   }
+   .base1 h2{
+	   font-size:17px;
+	   font-weight: 600;
+   }
+   .base1 p{
+	font-size: 14px;
+    margin-top: 14px;
+   }
+   .base1 p:hover{
+	   color:#00bcd4;
+   }
+   .base1 i{
+	   padding:5px;
+	   color:#00bcd4;
+   }
+   .base h4{
+	   font-size:15px;
+   }
+   .base b{
+	   font-weight:bold;
+   }
+	.out-side{
+		border: 2px solid #00bcd4;
+		border-radius: 25px;
+		background: #fff;
+		padding: 1px;
+	}
+	.sub{
+		position: absolute;
+		right: 106px;
+		transform: translateY(-2px);
+		border-radius: 25px;
+		background-color: #00bcd4;
+		text-align: center;
+		font-size: 16px;
+		color: #fff;
+		height: 50px;
+		border: 1px solid #00bcd4;
+		line-height: 45px;
+		padding: 0px 22px;
+		cursor: pointer;
+		text-align: center;
+	}
+	.form-controal1{
+       position: relative;
+		left: 2px;
+		bottom: 0px;
+		width: 90%;
+		border: solid 1px #ccc;
+		color: #999;
+		font-size: 16px;
+		padding: 9px 0px;
+		margin: 2px;
+		transform: trnsalateX(4);
+		transform: translate(10px, 0px);
+	}
+	.subscribe>input{
+		border:0;
+	}
+   .sub:focus{
+	   border-color: #00bcd4;
+   }
+   /* =====footer end====*/
    
    /*===finish start===*/
    .finish{
@@ -1002,7 +1114,13 @@
    }
    .finish-01  p > a{
 	   color:#00bcd4;
+	      
    }
-
+   .finish-01 > p {
+	   
+	 margin-top:10px;
+	      
+   }
+    
    
    /*===finish end===*/
