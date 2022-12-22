@@ -575,7 +575,7 @@
   }
    .content2 > img{
 	 border-radius:50%;
-     box-shadow:2px 2px 2px 15px #8080804d; 
+     box-shadow:1px 1px 0px 10px #f8feff5e; 
   }
   .content2 > h1{
 	  margin-top:10px;
@@ -601,7 +601,7 @@
    .content3{
 	  margin:40px 0;
 	  text-align:center;
-	  line-height:80px;
+	  line-height:40px;
    }
    .content3 h1{
 	   color:#5c4d4d;
@@ -612,7 +612,7 @@
 	   color:#5c4d4d;
 	   padding-top:20px;
 	   font-size:17px;
-	   line-height:37px;
+	   line-height:30px;
    }
     .alls{
 	  text-align: center;
@@ -627,16 +627,25 @@
    a{
 	   text-decoration:none;
    }
-   .btn1:hover{
-	   background-color:#00bcd482;
+   .btn1 > a{
+	   color:black;
+   }
+   .alls a.active{
+	   color:#00bcd4;
+   }
+   .btn1:hover a{
+	   color:#00bcd4;
    }
    .alls div.active{
-	   background-color:#00bcd482;
+	   background-color:#93e1eb5c;
    }
    .adding img{
 	  margin-top:30px;
 	  width:100%;
    } 
+   .btn1:hover{
+	   background-color:#93e1eb5c;
+   }
    .adding {
 	   position:relative;
    }
@@ -1064,42 +1073,44 @@
 	   font-weight:bold;
    }
 	.out-side{
-		border: 2px solid #00bcd4;
+		border: 2px solid #00bcd45e;
 		border-radius: 25px;
 		background: #fff;
 		padding: 1px;
+		width: 90%;
+        position: absolute;
+	}
+	.subscribe{
+		position: relative;
 	}
 	.sub{
-		position: absolute;
-		right: 106px;
-		transform: translateY(-2px);
-		border-radius: 25px;
-		background-color: #00bcd4;
-		text-align: center;
-		font-size: 16px;
-		color: #fff;
-		height: 50px;
-		border: 1px solid #00bcd4;
-		line-height: 45px;
-		padding: 0px 22px;
-		cursor: pointer;
-		text-align: center;
+    position: absolute;
+    transform: translateY(-2px);
+    border-radius: 25px;
+    background-color: #00bcd4;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    height:50px;
+    border: 1px solid #00bcd4;
+    line-height: 45px;
+    padding: 0px 24px;
+    cursor: pointer;
 	}
 	.form-controal1{
-       position: relative;
-		left: 2px;
-		bottom: 0px;
-		width: 90%;
-		border: solid 1px #ccc;
-		color: #999;
-		font-size: 16px;
-		padding: 9px 0px;
-		margin: 2px;
-		transform: trnsalateX(4);
-		transform: translate(10px, 0px);
+    width: 70%;
+    border: solid 1px #ccc;
+    color: #999;
+    font-size: 16px;
+    padding: 9px 0px;
+    margin: 2px;
+    transform: translate(10px, 0px);
 	}
-	.subscribe>input{
+	.out-side>input{
 		border:0;
+	}
+	.sub:hover{
+		background: #059db1;
 	}
    .sub:focus{
 	   border-color: #00bcd4;
@@ -1133,6 +1144,7 @@
 	 margin-top:10px;
 	      
    }
+   
     
    
    /*===finish end===*/
