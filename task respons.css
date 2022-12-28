@@ -1,0 +1,160 @@
+/*--------mobile mode----------*/
+
+@media (max-width:576px){
+	
+	  .col-mo-1{
+		  flex:0 0 auto;
+	   width:8.33%;
+   }
+    .col-mo-2{
+		 flex:0 0 auto;
+	   width:16.66%;
+   }
+    .col-mo-3{
+		 flex:0 0 auto;
+	   width:25%;
+   }
+    .col-mo-4{
+		 flex:0 0 auto;
+	   width:33.33%;
+   }
+    .col-mo-5{
+		 flex:0 0 auto;
+	   width:41.66%;
+   }
+    .col-mo-6{
+		 flex:0 0 auto;
+	   width:50%;
+   }
+    .col-mo-7{
+		 flex:0 0 auto;
+	   width:58.33%;
+   }
+    .col-mo-8{
+		 flex:0 0 auto;
+	   width:66.66%;
+   }
+    .col-mo-9{
+		 flex:0 0 auto;
+	   width:75%;
+   }
+    .col-mo-10{
+		 flex:0 0 auto;
+	   width:83.33%;
+   }
+    .col-mo-11{
+		 flex:0 0 auto;
+	   width:91.66%;
+   }
+    .col-mo-12{
+		 flex:0 0 auto;
+	   width:100%;
+   }
+    
+	.hed-btn{
+		display:none;
+	}
+	.contact-info{
+		display:flex;
+		justify-content:center;
+	}
+	.navbar{
+		display:none;
+	}
+	span .bnr-btn{
+		display:flex;
+		justify-content:center;
+	}
+   .choose-items{
+	   height:auto;
+	   margin-bottom:20px;
+   }
+    .why-choose {
+		height:auto;
+	   margin-bottom:20px;
+	}
+	.abt-img{
+		padding:220px;
+	}
+	.buy-order h3{
+		transform: translate(220px, -36px)rotate(45deg);
+	}
+	.table{
+	   padding:20px 81px;
+   }
+   .address{
+	   height:auto;
+	   margin-bottom:20px;
+   }
+   .base{
+	   height:auto;
+	   margin-bottom:20px;
+   }
+   .base1{
+	   height:auto;
+	   margin-bottom:20px;
+   }
+   .sub{
+	   padding:0 30px;
+   }
+   .finish-01 > p{
+	   text-align:center;
+	   padding-bottom:20px;
+   }
+   .finish-02{
+	  text-align:center;
+	  padding-right:112px;
+   }
+}
+@media (min-width:576px){
+	
+}
+@media (min-width:768px){
+	
+}
+@media (min-width:992px){
+	
+}
+@media (min-width:1200px){
+	
+
+	.container{
+		width:1170px;
+	}
+	  .col-lg-1{
+	   width:8.33%;
+   }
+    .col-lg-2{
+	   width:16.66%;
+   }
+    .col-lg-3{
+	   width:25%;
+   }
+    .col-lg-4{
+	   width:33.33%;
+   }
+    .col-lg-5{
+	   width:41.66%;
+   }
+    .col-lg-6{
+	   width:50%;
+   }
+    .col-lg-7{
+	   width:58.33%;
+   }
+    .col-lg-8{
+	   width:66.66%;
+   }
+    .col-lg-9{
+	   width:75%;
+   }
+    .col-lg-10{
+	   width:83.33%;
+   }
+    .col-lg-11{
+	   width:91.66%;
+   }
+    .col-lg-12{
+	   width:100%;
+   }
+}
