@@ -62,9 +62,7 @@
 		display:flex;
 		justify-content:center;
 	}
-	.navbar{
-		display:none;
-	}
+	
 	span .bnr-btn{
 		display:flex;
 		justify-content:center;
@@ -72,27 +70,10 @@
 	.banner-content h1{
 		font-size:28px;
 	} 
-   .choose-items{
-	   height:auto;
-	   margin-bottom:20px;
-   }
-    .why-choose {
-		height:auto;
-	   margin-bottom:20px;
-	}
-	.abt-img{
-		padding:200px 90px;;
-	}
-	.buy-order h3{
-		transform: translate(144px, -36px)rotate(45deg);
-	}
 	.table{
 	   padding:20px 1px;
    }
-   .address{
-	   height:auto;
-	   margin-bottom:20px;
-   }
+  
    .base{
 	   height:auto;
 	   margin-bottom:20px;
@@ -104,14 +85,7 @@
    .sub{
 	   padding:0 30px;
    }
-   .finish-01 > p{
-	   text-align:center;
-	   padding-bottom:20px;
-   }
-   .finish-02{
-	  text-align:center;
-	  padding-left:0px;
-   }
+  
    .para{
 	   padding:50px 0;
    }
@@ -120,10 +94,116 @@
 	
 }
 @media (min-width:768px){
+	 .col-ta-1{
+		  flex:0 0 auto;
+	   width:8.33%;
+   }
+    .col-ta-2{
+		 flex:0 0 auto;
+	   width:16.66%;
+   }
+    .col-ta-3{
+		 flex:0 0 auto;
+	   width:25%;
+   }
+    .col-ta-4{
+		 flex:0 0 auto;
+	   width:33.33%;
+   }
+    .col-ta-5{
+		 flex:0 0 auto;
+	   width:41.66%;
+   }
+    .col-ta-6{
+		 flex:0 0 auto;
+	   width:50%;
+   }
+    .col-ta-7{
+		 flex:0 0 auto;
+	   width:58.33%;
+   }
+    .col-ta-8{
+		 flex:0 0 auto;
+	   width:66.66%;
+   }
+    .col-ta-9{
+		 flex:0 0 auto;
+	   width:75%;
+   }
+    .col-ta-10{
+		 flex:0 0 auto;
+	   width:83.33%;
+   }
+    .col-ta-11{
+		 flex:0 0 auto;
+	   width:91.66%;
+   }
+    .col-ta-12{
+		 flex:0 0 auto;
+	   width:100%;
+   }
+   .d-md-none{
+	   display:none;
+   }
+	.table {
+     padding: 15px 49px;
+}
+.address {
+     margin-bottom:20px;
+}
+
+ 
+}
+@media (max-width:992px){
+.navbar{
+		display:none;
+	}
+	.choose-items{
+	   height:auto;
+	   margin-bottom:20px;
+   }
+   .why-choose {
+		height:auto;
+	   margin-bottom:20px;
+	}
+	.abt-img{
+		padding:200px 90px;;
+	}
+	.address {
+     margin-bottom:20px;
+}
+.buy-order h3{
+		transform: translate(120px, -36px)rotate(45deg);
+	}
+	.finish-01 > p{
+	   text-align:center;
+	   padding-bottom:20px;
+   }
+   .finish-02{
+	  text-align:center;
+	  padding-left:0px;
+   }
+   .icon{
+	position: absolute;
+    background: transparent;
+    right: 20px;
+    top: -2px;
+    border: 0;
+    width: 40px;
+    height: auto;
+    padding: 0;
+    box-shadow: none;
+    font-size: 26px;
 	
 }
+ .display-block{
+	 display:block !important;
+ }
+}
 @media (min-width:992px){
-	
+	.d-lg-none{
+		display:none !important;
+	}
 }
 @media (min-width:1200px){
 	
