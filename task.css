@@ -16,6 +16,7 @@
 	  width:100%;
 	  margin:0 auto;
 	  padding:0 15px;
+	  position:relative;
    }
    .row{
 	   display:flex;
@@ -77,7 +78,9 @@
    .text-justify{
 	 text-align:justify !important;
    }
-   
+   .d-none{
+	   display:none !important;
+   }
    /*====header style===*/
    .header-start{
 	   background-color:#fff;
